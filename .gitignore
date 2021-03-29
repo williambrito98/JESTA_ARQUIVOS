@@ -1,0 +1,7 @@
+.idea
+node_modules
+__pycache__
+config.json
+*.csv
+downloads
+*.zip
