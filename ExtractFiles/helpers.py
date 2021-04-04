@@ -40,4 +40,4 @@ def processFiles(directoryFile, fileAppend):
         else:
             print('sem conteudo no arquivo do cliente ' + directoryFile)
     except FileNotFoundError:
-        print('Arquivo de enviadas nao encontrado')
+        print('Arquivo nao encontrado')
