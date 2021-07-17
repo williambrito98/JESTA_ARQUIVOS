@@ -6,3 +6,4 @@ config.json
 downloads
 *.zip
 arquivos
+.vscode
