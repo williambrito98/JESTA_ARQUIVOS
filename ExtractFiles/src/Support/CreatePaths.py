@@ -11,6 +11,6 @@ class CreatePaths:
             return True
         path = args.pop(0)
         if not os.path.exists(path):
+            print('CRIANDO PASTA ' + path)
             os.mkdir(path)
         return self.createOutputpaths(*args)
-

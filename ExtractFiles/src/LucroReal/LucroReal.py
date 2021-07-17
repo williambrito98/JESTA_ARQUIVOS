@@ -1,12 +1,12 @@
 import os
 import shutil
 
-from ExtractFiles import helpers
-from ExtractFiles.src.Interfaces.Ifactory import Ifactory
-from ExtractFiles.src.LucroReal.Notas.Notas import Notas
-from ExtractFiles.src.LucroReal.guias.Guia import Guia
-from ExtractFiles.src.LucroReal.nfts.Nfts import Ntfs
-from ExtractFiles.src.Support.CreatePaths import CreatePaths
+import helpers
+from src.Interfaces.Ifactory import Ifactory
+from src.LucroReal.Notas.Notas import Notas
+from src.LucroReal.guias.Guia import Guia
+from src.LucroReal.nfts.Nfts import Ntfs
+from src.Support.CreatePaths import CreatePaths
 
 
 class LucroReal(Ifactory):

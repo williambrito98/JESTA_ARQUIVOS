@@ -1,12 +1,12 @@
 import os
 import shutil
 
-from ExtractFiles import helpers
-from ExtractFiles.src.Interfaces.Ifactory import Ifactory
-from ExtractFiles.src.LucroPresumido.Notas.Notas import Notas
-from ExtractFiles.src.LucroPresumido.guias.Guia import Guia
-from ExtractFiles.src.LucroPresumido.nfts.Nfts import Ntfs
-from ExtractFiles.src.Support.CreatePaths import CreatePaths
+import helpers
+from src.Interfaces.Ifactory import Ifactory
+from src.LucroPresumido.Notas.Notas import Notas
+from src.LucroPresumido.guias.Guia import Guia
+from src.LucroPresumido.nfts.Nfts import Ntfs
+from src.Support.CreatePaths import CreatePaths
 
 
 class LucroPresumido(Ifactory):

@@ -1,6 +1,6 @@
-from ExtractFiles.src.LucroPresumido.LucroPresumido import LucroPresumido
-from ExtractFiles.src.LucroReal.LucroReal import LucroReal
-from ExtractFiles.src.SimplesNacional.SimplesNacional import SimplesNacional
+from src.LucroPresumido.LucroPresumido import LucroPresumido
+from src.LucroReal.LucroReal import LucroReal
+from src.SimplesNacional.SimplesNacional import SimplesNacional
 
 
 class FactoryFile:
@@ -13,7 +13,7 @@ class FactoryFile:
                 'SIMPLES_NACIONAL': SimplesNacional,
                 'LUCRO_PRESUMIDO': LucroPresumido
             }
-
+            print('ARQUIVO DO ' + nameClass)
             return functions[nameClass](config, path, nameClass).init()
         except KeyError as e:
             print('CLASSE NAO ENCONTRADA PARA O ARQUIVO: ' + str(e))

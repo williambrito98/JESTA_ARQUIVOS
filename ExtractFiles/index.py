@@ -1,9 +1,9 @@
 import os
+import shutil
+import helpers
+from src.FactoryFile import FactoryFile
 
-from ExtractFiles import helpers
-from ExtractFiles.src.FactoryFile import FactoryFile
-
-os.chdir('../')
+#os.chdir('../')
 ConfigJson = helpers.readJson(os.path.join(os.getcwd(), 'config.json'))
 PathDownload = os.path.join(os.getcwd(), 'downloads')
 PathArquivos = os.path.join(os.getcwd(), 'arquivos')
@@ -13,5 +13,9 @@ try:
     for file in os.listdir(PathDownload):
         file = file[0:-4]
         FactoryFile.setClass(file, ConfigJson, os.path.join(PathDownload, file))
+        print('REMOVENDO ZIP')
+        os.remove(os.path.join(PathDownload, file + '.zip'))
 except Exception as e:
     raise str(e)
+finally:
+    print('FIM')

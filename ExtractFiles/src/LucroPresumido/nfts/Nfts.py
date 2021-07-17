@@ -1,9 +1,9 @@
 import os
 
-from ExtractFiles.src.DataFrame.Create import Create
-from ExtractFiles.src.DataFrame.Save import Save
-from ExtractFiles.src.LucroPresumido.nfts.Intermediadas import Intermediadas
-from ExtractFiles.src.LucroPresumido.nfts.Tomados import Tomados
+from src.DataFrame.Create import Create
+from src.DataFrame.Save import Save
+from src.LucroPresumido.nfts.Intermediadas import Intermediadas
+from src.LucroPresumido.nfts.Tomados import Tomados
 
 
 class Ntfs:

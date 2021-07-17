@@ -1,9 +1,9 @@
 import os
 
-from ExtractFiles.src.DataFrame.Create import Create
-from ExtractFiles.src.DataFrame.Save import Save
-from ExtractFiles.src.LucroPresumido.Notas.Enviadas import Enviadas
-from ExtractFiles.src.LucroPresumido.Notas.Recebidas import Recebidas
+from src.DataFrame.Create import Create
+from src.DataFrame.Save import Save
+from src.LucroPresumido.Notas.Enviadas import Enviadas
+from src.LucroPresumido.Notas.Recebidas import Recebidas
 
 
 class Notas:

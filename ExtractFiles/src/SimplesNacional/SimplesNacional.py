@@ -1,12 +1,12 @@
 import os
 import shutil
 
-from ExtractFiles import helpers
-from ExtractFiles.src.Interfaces.Ifactory import Ifactory
-from ExtractFiles.src.SimplesNacional.Notas.Notas import Notas
-from ExtractFiles.src.SimplesNacional.guias.Guia import Guia
-from ExtractFiles.src.SimplesNacional.nfts.Nfts import Ntfs
-from ExtractFiles.src.Support.CreatePaths import CreatePaths
+import helpers
+from src.Interfaces.Ifactory import Ifactory
+from src.SimplesNacional.Notas.Notas import Notas
+from src.SimplesNacional.guias.Guia import Guia
+from src.SimplesNacional.nfts.Nfts import Ntfs
+from src.Support.CreatePaths import CreatePaths
 
 
 class SimplesNacional(Ifactory):

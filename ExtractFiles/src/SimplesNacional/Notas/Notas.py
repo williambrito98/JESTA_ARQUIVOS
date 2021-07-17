@@ -1,9 +1,9 @@
 import os
 
-from ExtractFiles.src.DataFrame.Create import Create
-from ExtractFiles.src.DataFrame.Save import Save
-from ExtractFiles.src.SimplesNacional.Notas.Enviadas import Enviadas
-from ExtractFiles.src.SimplesNacional.Notas.Recebidas import Recebidas
+from src.DataFrame.Create import Create
+from src.DataFrame.Save import Save
+from src.SimplesNacional.Notas.Enviadas import Enviadas
+from src.SimplesNacional.Notas.Recebidas import Recebidas
 
 
 class Notas:
